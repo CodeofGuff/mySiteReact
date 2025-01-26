@@ -2,6 +2,14 @@ import { useEffect } from "react";
 import characterDemo2020 from "../assets/audio/DavidGuffre_CharacterDemo2020.mp3";
 import characterDemo2019 from "../assets/audio/DavidGuffre_2019CharDemos_v2_o.mp3";
 import commercialDemo2020 from "../assets/audio/DavidGuffre_CommercialDemo2020.mp3";
+import htmlIcon from "../assets/img/html.png";
+import cssIcon from "../assets/img/css.png";
+import jsIcon from "../assets/img/js.png";
+import tsIcon from "../assets/img/ts.png";
+import reactIcon from "../assets/img/react.png";
+import expoIcon from "../assets/img/expo.png";
+import pythonIcon from "../assets/img/python.png";
+import swiftIcon from "../assets/img/swift.png";
 
 export default function Body() {
   return (
@@ -9,48 +17,32 @@ export default function Body() {
       <div className="work-section">
         <div className="tech-icon-container">
           <div className="tech-icon-wrapper" title="HTML">
-            <img src="assets/img/html.png" alt="HTML" className="tech-icon" />
+            <img src={htmlIcon} alt="HTML" className="tech-icon" />
           </div>
           <div className="tech-icon-wrapper" title="CSS">
-            <img src="assets/img/css.png" alt="CSS" className="tech-icon" />
+            <img src={cssIcon} alt="CSS" className="tech-icon" />
           </div>
           <div className="tech-icon-wrapper" title="JavaScript">
-            <img
-              src="/assets/img/js.png"
-              alt="JavaScript"
-              className="tech-icon"
-            />
+            <img src={jsIcon} alt="JavaScript" className="tech-icon" />
           </div>
           <div className="tech-icon-wrapper" title="TypeScript">
-            <img
-              src="assets/img/ts.png"
-              alt="TypeScript"
-              className="tech-icon"
-            />
+            <img src={tsIcon} alt="TypeScript" className="tech-icon" />
           </div>
           <div className="tech-icon-wrapper" title="React/React Native">
             <img
-              src="assets/img/react.png"
+              src={reactIcon}
               alt="React/React Native"
               className="tech-icon"
             />
           </div>
           <div className="tech-icon-wrapper" title="Expo">
-            <img src="assets/img/expo.png" alt="Expo" className="tech-icon" />
+            <img src={expoIcon} alt="Expo" className="tech-icon" />
           </div>
           <div className="tech-icon-wrapper" title="Python">
-            <img
-              src="assets/img/python.png"
-              alt="Python"
-              className="tech-icon"
-            />
+            <img src={pythonIcon} alt="Python" className="tech-icon" />
           </div>
           <div className="tech-icon-wrapper" title="Swift/SwiftUI">
-            <img
-              src="assets/img/swift.png"
-              alt="Swift/SwiftUI"
-              className="tech-icon"
-            />
+            <img src={swiftIcon} alt="Swift/SwiftUI" className="tech-icon" />
           </div>
         </div>
         <h3 className="section-label">My Work</h3>
