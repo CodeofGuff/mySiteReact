@@ -1,14 +1,19 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Body from "./components/body";
+import MyWork from "./components/mywork";
 import Footer from "./components/footer";
 import Bio from "./components/bio";
+import TechIcons from "./components/techicons";
+import SocialLinks from "./components/sociallinks";
 
 function App() {
   return (
     <>
       <Bio />
-      <Body />
+
+      <MyWork />
+      <TechIcons />
+      <SocialLinks />
       <Footer />
     </>
   );
