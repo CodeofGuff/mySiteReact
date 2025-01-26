@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import profileImage from "../assets/img/profile.jpeg";
 
 export default function Aside({ isMobile }) {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -47,7 +46,7 @@ export default function Aside({ isMobile }) {
       {isMobile ? (
         <>
           <img
-            src={profileImage}
+            src="/img/profile.jpeg"
             alt="Profile Image"
             className={`circular-image ${imageLoaded ? "loaded" : ""}`}
             onLoad={handleImageLoad}
@@ -199,7 +198,7 @@ export default function Aside({ isMobile }) {
             </a>
           </div>
           <img
-            src={profileImage}
+            src="/img/profile.jpeg"
             alt="Profile Image"
             className={`circular-image ${imageLoaded ? "loaded" : ""}`}
             onLoad={handleImageLoad}
