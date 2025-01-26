@@ -3,14 +3,6 @@ export default function SocialLinks() {
     <>
       <div className="socials-links-grid">
         <a
-          href="https://x.com/iamguff"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-tooltip="Follow me on X"
-        >
-          <i className="fa-brands fa-x-twitter"></i>
-        </a>
-        <a
           href="https://bsky.app/profile/iamguff.bsky.social"
           target="_blank"
           rel="noopener noreferrer"
