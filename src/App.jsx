@@ -1,20 +1,29 @@
 import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./App.css";
-import MyWork from "./components/mywork";
-import Footer from "./components/footer";
-import Bio from "./components/bio";
-import TechIcons from "./components/techicons";
 import SocialLinks from "./components/sociallinks";
+import Bio from "./components/bio";
+import MyWork from "./components/mywork";
+import TechIcons from "./components/techicons";
+import Footer from "./components/footer";
+import VoiceActing from "./components/vo";
 
 function App() {
   return (
-    <>
-          <SocialLinks />
-      <Bio />
-      <MyWork />
-      <TechIcons />
+    <Router>
+      <SocialLinks />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Bio />
+            <MyWork />
+            <TechIcons />
+          </>
+        } />
+        <Route path="/vo" element={<VoiceActing />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 
