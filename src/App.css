@@ -90,7 +90,7 @@ body::after {
   width: 100%;
   height: auto;
   border-radius: var(--radius);
-  animation: smoothPulseGlow 5s infinite;
+  animation: smoothPulseGlow 7s ease-in-out infinite;
 }
 
 /* Social Links */
@@ -181,7 +181,6 @@ body::after {
   font-size: 2.5rem;
   color: var(--primary-color);
   margin-bottom: 1.5rem;
-  animation: smoothPulseGlow 5s infinite;
   margin-left: 1rem;
 }
 
@@ -189,9 +188,9 @@ body::after {
   font-size: 2rem;
   color: var(--primary-color);
   margin-bottom: 0rem;
-  animation: smoothPulseGlow 5s infinite;
   margin-left: 1rem;
   margin-top: 2rem;
+
 }
 
 .welcome-text {
@@ -216,7 +215,6 @@ body::after {
   font-size: 2rem;
   color: var(--primary-color);
   margin-bottom: 1rem;
-  animation: smoothPulseGlow 5s infinite;
   margin-top: 0rem;
   margin-left: 1rem;
 }
@@ -283,7 +281,6 @@ body::after {
   font-size: 2.5rem;
   color: var(--primary-color);
   margin-bottom: 1.5rem;
-  animation: smoothPulseGlow 5s infinite;
 }
 
 .demo-reel,
