@@ -11,6 +11,7 @@ import expoIcon from "../assets/img/expo.png";
 import pythonIcon from "../assets/img/python.png";
 import swiftIcon from "../assets/img/swift.png";
 import viteIcon from "../assets/img/vite.png";
+
 export default function Body() {
   return (
     <main className="container">
