@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function Body() {
+export default function MyWork() {
   return (
     <>
       <div className="work-section">
