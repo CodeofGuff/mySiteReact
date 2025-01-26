@@ -76,7 +76,6 @@ body::after {
   width: var(--sidebar-width);
   z-index: 10;
   border-radius: var(--radius);
-  transition: var(--transition);
 }
 
 .profile-image {
@@ -84,7 +83,7 @@ body::after {
   height: auto;
   border-radius: var(--radius);
   box-shadow: 0 0 40px rgba(146, 62, 191, 0.3);
-  transition: var(--transition);
+
 }
 
 /* Social Links */
