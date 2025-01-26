@@ -306,7 +306,7 @@ body::after {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   width: 90%;
-  height: 70%;
+  height: 90%;
 }
 
 .demo-item:hover {
@@ -327,6 +327,7 @@ body::after {
   margin-top: 0rem;
   border-radius: var(--radius);
   background: rgba(74, 79, 107, 0.3);
+  
 }
 
 .video-container {
@@ -523,35 +524,37 @@ body::after {
   .welcome-card,
   .work-link,
   .demo-reel,
-  .video-samples,
-  .voice-demos,
-  .demo-item {
+  .video-samples {
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
     padding: 1rem;
-    margin: 0.5rem 0;
+  }
+
+  .voice-demos {
+    width: 100%;
+    max-width: 100%;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .demo-item {
+    height: 80%;
+    margin: 0;
+    padding: 0.75rem;
   }
 
   .audio-player {
     width: 100%;
     max-width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     box-sizing: border-box;
   }
 
-  .video-container {
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .video-container iframe {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    box-sizing: border-box;
+  .demo-item h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
   }
 
   /* Ensure all text content stays within bounds */
@@ -561,7 +564,7 @@ body::after {
   }
 
   /* Fix any potential overflow from flex/grid containers */
-  .tech-icon-container{
+  .tech-icon-container {
     width: 100%;
     max-width: 100%;
     padding: 0.5rem;
