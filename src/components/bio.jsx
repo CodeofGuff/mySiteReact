@@ -19,8 +19,8 @@ export default function Bio() {
       </div>
       <div className="title-bar">
         <div className="welcome-cards-container">
+        <h1 className="welcome-card-h1">Hello and Welcome!</h1>
           <div className={`welcome-card dev-bio visible`}>
-            <h1>Hello and Welcome!</h1>
             <p className="welcome-text">
               My name is David Guffre and am a self-taught software developer
               currently living in the <strong>Bay Area, CA.</strong>

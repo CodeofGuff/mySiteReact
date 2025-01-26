@@ -178,17 +178,28 @@ body::after {
   margin-bottom: 0;
 }
 
-.welcome-card h1 {
+.welcome-card-h1 {
   font-size: 2.5rem;
   color: var(--primary-color);
   margin-bottom: 1.5rem;
   text-shadow: 0 0 20px rgba(146, 62, 191, 0.5);
+  margin-left: 1rem;
+}
+
+.welcome-card-h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 0rem;
+  text-shadow: 0 0 20px rgba(146, 62, 191, 0.5);
+  margin-left: 1rem;
+  margin-top: 2rem;
 }
 
 .welcome-text {
   font-size: 1.1rem;
   margin-bottom: 1rem;
   color: var(--text);
+  margin-top: 0;
 }
 
 /* Work Section */
@@ -436,7 +447,7 @@ body::after {
 }
 
 @media (max-width: 768px) {
-  .welcome-card h1 {
+  .welcome-card-h1 {
     font-size: 2rem;
   }
 

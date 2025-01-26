@@ -26,8 +26,8 @@ const Vo = () => {
       </div>
       
       <div className="vo-content">
+      <h1 className="welcome-card-h1">Voice Acting Portfolio</h1>
         <div className="welcome-card vo-intro">
-          <h1>Voice Acting Portfolio</h1>
           <p className="welcome-text">
             I'm a versatile voice actor with a passion for bringing characters to life. With experience in commercial, character, and narrative work, I specialize in creating distinct and memorable voices that resonate with audiences.
           </p>
@@ -36,8 +36,8 @@ const Vo = () => {
           </p>
         </div>
 
+        <h2 className="welcome-card-h2">Voice Demos</h2>
         <div className="demo-reel">
-          <h2>Voice Demos</h2>
           <div className="voice-demos">
             <div className="demo-item">
               <h3>Character Demo Main</h3>
@@ -77,9 +77,9 @@ const Vo = () => {
             </div>
           </div>
         </div>
-
+        <h2 className="welcome-card-h2">Featured Work</h2>
         <div className="video-samples">
-          <h2>Featured Work</h2>
+          
           <div className="video-container">
             <iframe
               width="560"
