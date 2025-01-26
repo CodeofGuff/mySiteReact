@@ -10,7 +10,7 @@ import reactIcon from "../assets/img/react.png";
 import expoIcon from "../assets/img/expo.png";
 import pythonIcon from "../assets/img/python.png";
 import swiftIcon from "../assets/img/swift.png";
-
+import viteIcon from "../assets/img/vite.png";
 export default function Body() {
   return (
     <main className="container">
@@ -34,6 +34,9 @@ export default function Body() {
               alt="React/React Native"
               className="tech-icon"
             />
+          </div>
+          <div className="tech-icon-wrapper" title="Vite.js">
+            <img src={viteIcon} alt="Vite.js" className="tech-icon" />
           </div>
           <div className="tech-icon-wrapper" title="Expo">
             <img src={expoIcon} alt="Expo" className="tech-icon" />
