@@ -599,7 +599,7 @@ body::after {
   }
 
   50% {
-    box-shadow: 0 0 100px rgba(146, 62, 191, 0.6);
+    box-shadow: 0 0 70px rgba(146, 62, 191, 0.6);
   }
 
   100% {
