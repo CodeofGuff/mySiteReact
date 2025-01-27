@@ -33,6 +33,7 @@ const Vo = () => {
         </Link>
       </div>
 
+
       <div className="vo-content">
         <h1 className="welcome-card-h1">Voice Acting Portfolio</h1>
         <div className="welcome-card vo-intro">
@@ -96,6 +97,7 @@ const Vo = () => {
         </div>
         <h2 className="welcome-card-h2">Featured Work</h2>
         <div className="video-samples">
+          
           <div className="video-container">
             <iframe
               width="560"
