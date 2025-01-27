@@ -255,11 +255,13 @@ body::after {
 .section-container {
   margin-left: calc(var(--sidebar-width) + 4rem);
   padding: 2rem;
-  max-width: 900px;
+  max-width: 800px;
   z-index: 2;
   position: relative;
   box-sizing: border-box;
   overflow-x: hidden;
+  margin-top: 5rem;
+  
 }
 
 .vo-intro,
