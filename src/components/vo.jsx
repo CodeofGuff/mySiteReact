@@ -44,8 +44,8 @@ const Vo = () => {
           <p className="welcome-text">
             I have been absorbed with voice acting since I first booted up
             Starcraft in 1999 and listened to some of the most immersing voice
-            acting I had experienced at the tenured age of 9. And it has stuck
-            with me through the years and inspired me on this course.
+            acting I had experienced at the tenured age of 9. <br></br>It has
+            stuck with me through the years and inspired through this journey.
           </p>
           <p className="welcome-text">
             My background in performance and storytelling, combined with my
