@@ -44,13 +44,13 @@ const Vo = () => {
           <p className="welcome-text">
             I have always enjoyed great voice acting since I first booted up
             Starcraft in 
-            <br></br>1999 and listened to some of the most immersing voice
-            acting I had experienced at the tenured age of 9. <br></br><br></br>It has
+            <br />1999 and listened to some of the most immersing voice
+            acting I had experienced at the tenured age of 9. <br /><br />It has
             stuck with me through the years and inspired through this journey.
           </p>
           <p className="welcome-text">
             With a knack for story telling combined with my
-            tech experience, <br></br>I can deliver high-quality recordings
+            tech experience, <br />I can deliver high-quality recordings
             from my professional home studio.
           </p>
         </div>

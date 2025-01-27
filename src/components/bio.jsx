@@ -22,7 +22,7 @@ export default function Bio() {
         <h1 className="welcome-card-h1">Hello and Welcome!</h1>
           <div className={`welcome-card dev-bio visible`}>
             <p className="welcome-text">
-              My name is David Guffre and am a self-taught software developer<br></br>
+              My name is David Guffre and am a self-taught software developer<br />
               currently living in the <strong>Bay Area, CA.</strong>
             </p>
             <p className="welcome-text">
@@ -35,7 +35,7 @@ export default function Bio() {
             </p>
             <p className="welcome-text">
               My preferred web-dev library is currently{" "}
-              <strong>React </strong>(with some React Native), however<br></br> I like to be
+              <strong>React </strong>(with some React Native), however<br /> I like to be
               proficient in all things software development.
             </p>
             <p className="welcome-text">
