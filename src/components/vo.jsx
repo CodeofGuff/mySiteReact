@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Link } from 'react-router-dom';
-import characterDemo2020 from '../assets/audio/DavidGuffre_CharacterDemo2020.mp3';
-import characterDemo2019 from '../assets/audio/DavidGuffre_2019CharDemos_v2_o.mp3';
-import commercialDemo2020 from '../assets/audio/DavidGuffre_CommercialDemo2020.mp3';
+import { Link } from "react-router-dom";
+import characterDemo2020 from "../assets/audio/DavidGuffre_CharacterDemo2020.mp3";
+import characterDemo2019 from "../assets/audio/DavidGuffre_2019CharDemos_v2_o.mp3";
+import commercialDemo2020 from "../assets/audio/DavidGuffre_CommercialDemo2020.mp3";
 
 const Vo = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -12,8 +12,16 @@ const Vo = () => {
   };
 
   return (
-    <section id="vo-section" className="section-container" aria-label="Voice Acting Portfolio">
-      <div className="profile-image-container" role="img" aria-label="Profile Image">
+    <section
+      id="vo-section"
+      className="section-container"
+      aria-label="Voice Acting Portfolio"
+    >
+      <div
+        className="profile-image-container"
+        role="img"
+        aria-label="Profile Image"
+      >
         <img
           src="/img/profile.jpeg"
           alt="David Guffre's Profile"
@@ -24,15 +32,24 @@ const Vo = () => {
           ← Back to Home
         </Link>
       </div>
-      
+
       <div className="vo-content">
-      <h1 className="welcome-card-h1">Voice Acting Portfolio</h1>
+        <h1 className="welcome-card-h1">Voice Acting Portfolio</h1>
         <div className="welcome-card vo-intro">
           <p className="welcome-text">
-            I'm a versatile voice actor with a passion for bringing characters to life. With experience in commercial, character, and narrative work, I specialize in creating distinct and memorable voices that resonate with audiences.
+            The immersion a great voice actor is able to provide a project is my
+            drive to perform.
           </p>
           <p className="welcome-text">
-            My background in performance and storytelling, combined with my technical expertise, allows me to deliver high-quality recordings from my professional home studio.
+            I have been absorbed with voice acting since I first booted up
+            Starcraft in 1999 and listened to some of the most immersing voice
+            acting I had experienced at the tenured age of 9. And it has stuck
+            with me through the years and inspired me on this course.
+          </p>
+          <p className="welcome-text">
+            My background in performance and storytelling, combined with my
+            technical expertise, allows me to deliver high-quality recordings
+            from my professional home studio.
           </p>
         </div>
 
@@ -41,9 +58,9 @@ const Vo = () => {
           <div className="voice-demos">
             <div className="demo-item">
               <h3>Character Demo Main</h3>
-              <audio 
-                controls 
-                className="audio-player" 
+              <audio
+                controls
+                className="audio-player"
                 preload="metadata"
                 aria-label="Character Demo Main Audio"
               >
@@ -53,9 +70,9 @@ const Vo = () => {
             </div>
             <div className="demo-item">
               <h3>Character Demo</h3>
-              <audio 
-                controls 
-                className="audio-player" 
+              <audio
+                controls
+                className="audio-player"
                 preload="metadata"
                 aria-label="Character Demo Audio"
               >
@@ -65,9 +82,9 @@ const Vo = () => {
             </div>
             <div className="demo-item">
               <h3>Commercial Demo</h3>
-              <audio 
-                controls 
-                className="audio-player" 
+              <audio
+                controls
+                className="audio-player"
                 preload="metadata"
                 aria-label="Commercial Demo Audio"
               >
@@ -79,7 +96,6 @@ const Vo = () => {
         </div>
         <h2 className="welcome-card-h2">Featured Work</h2>
         <div className="video-samples">
-          
           <div className="video-container">
             <iframe
               width="560"
