@@ -179,6 +179,16 @@ body::after {
   margin-bottom: 0;
 }
 
+.welcome-card-h1,
+.welcome-card-h2,
+.section-label,
+.vo-intro h1,
+.demo-reel h2,
+.video-samples h2,
+.work-link h3 {
+  text-shadow: -2px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
 .welcome-card-h1 {
   font-size: 2.5rem;
   color: var(--primary-color);
@@ -397,6 +407,8 @@ body::after {
 
 .footer p {
   color: var(--text-muted);
+  margin: 0;
+
 }
 
 /* Responsive Design */
@@ -605,7 +617,7 @@ body::after {
   }
 
   50% {
-    box-shadow: 0 0 70px rgba(146, 62, 191, 0.6);
+    box-shadow: 0 0 80px rgba(146, 62, 191, 0.8);
   }
 
   100% {
