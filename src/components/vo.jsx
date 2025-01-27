@@ -42,14 +42,15 @@ const Vo = () => {
             drive to perform.
           </p>
           <p className="welcome-text">
-            I have been absorbed with voice acting since I first booted up
-            Starcraft in 1999 and listened to some of the most immersing voice
-            acting I had experienced at the tenured age of 9. <br></br>It has
+            I have always enjoyed great voice acting since I first booted up
+            Starcraft in 
+            <br></br>1999 and listened to some of the most immersing voice
+            acting I had experienced at the tenured age of 9. <br></br><br></br>It has
             stuck with me through the years and inspired through this journey.
           </p>
           <p className="welcome-text">
-            My background in performance and storytelling, combined with my
-            technical expertise, allows me to deliver high-quality recordings
+            With a knack for story telling combined with my
+            tech experience, <br></br>I can deliver high-quality recordings
             from my professional home studio.
           </p>
         </div>
