@@ -33,7 +33,6 @@ const Vo = () => {
         </Link>
       </div>
 
-
       <div className="vo-content">
         <h1 className="welcome-card-h1">Voice Acting Portfolio</h1>
         <div className="welcome-card vo-intro">
@@ -43,15 +42,18 @@ const Vo = () => {
           </p>
           <p className="welcome-text">
             I have always enjoyed great voice acting since I first booted up
-            Starcraft in 
-            <br />1999 and listened to some of the most immersing voice
-            acting I had experienced at the tenured age of 9. <br /><br />It has
-            stuck with me through the years and inspired through this journey.
+            Starcraft in
+            <br />
+            1999 and listened to some of the most immersing voice acting I had
+            experienced at the tenured age of 9. <br />
+            <br />
+            It has stuck with me through the years and inspired through this
+            journey.
           </p>
           <p className="welcome-text">
-            With a knack for story telling combined with my
-            tech experience, <br />I can deliver high-quality recordings
-            from my professional home studio.
+            With a knack for story telling combined with my tech experience,{" "}
+            <br />I can deliver high-quality recordings from my professional
+            home studio.
           </p>
         </div>
 
@@ -98,7 +100,6 @@ const Vo = () => {
         </div>
         <h2 className="welcome-card-h2">Featured Work</h2>
         <div className="video-samples">
-          
           <div className="video-container">
             <iframe
               width="560"

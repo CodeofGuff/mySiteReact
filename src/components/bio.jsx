@@ -19,24 +19,25 @@ export default function Bio() {
       </div>
       <div className="title-bar">
         <div className="welcome-cards-container">
-        <h1 className="welcome-card-h1">Hello and Welcome!</h1>
+          <h1 className="welcome-card-h1">Hello and Welcome!</h1>
           <div className={`welcome-card dev-bio visible`}>
             <p className="welcome-text">
-              My name is David Guffre and am a self-taught software developer<br />
+              My name is David Guffre and am a self-taught software developer
+              <br />
               currently living in the <strong>Bay Area, CA.</strong>
             </p>
             <p className="welcome-text">
-              I'm an introvert with a lithium social battery thanks to being a
-              Bartender of many years.
+              I&apos;m an introvert with a lithium social battery thanks to
+              being a Bartender of many years.
             </p>
             <p className="welcome-text">
-              I have a natural curiousity and always looking for{" "}
-              <strong>what I don't know.</strong>
+              I have a natural curiosity and always looking for{" "}
+              <strong>what I don&apos;t know.</strong>
             </p>
             <p className="welcome-text">
-              My preferred web-dev library is currently{" "}
-              <strong>React </strong>(with some React Native), however<br /> I like to be
-              proficient in all things software development.
+              My preferred web-dev library is currently <strong>React </strong>
+              (with some React Native), however
+              <br /> I like to be proficient in all things software development.
             </p>
             <p className="welcome-text">
               <strong>Fun Fact:</strong> I am voice actor and competitive gamer!
